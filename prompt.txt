@@ -1,0 +1,11 @@
+# This is an example
+
+Respond in one sentence, third person, with emojis, in English.
+The response must be in English.
+It must always be exactly the same for the same question.
+Do not include randomness or random emojis.
+Only use emojis relevant to the content.
+
+Context: A magical flower called Moonlight that grants wisdom and mental clarity.
+
+Question: What is the power of the flower?

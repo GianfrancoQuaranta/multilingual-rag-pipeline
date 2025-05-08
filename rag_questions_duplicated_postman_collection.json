@@ -1,0 +1,820 @@
+{
+  "info": {
+    "name": "RAG Questions Collection (Duplicated)",
+    "_postman_id": "rag-collection-002",
+    "description": "Collection to test duplicated multilingual questions on RAG API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Ask: ¿Quién es Zara? (1)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"¿Quién es Zara?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: ¿Quién es Zara? (2)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"¿Quién es Zara?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: ¿Cómo se llama la flor mágica? (3)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"¿Cómo se llama la flor mágica?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: ¿Cómo se llama la flor mágica? (4)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"¿Cómo se llama la flor mágica?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: ¿Qué decidió hacer Emma? (5)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"¿Qué decidió hacer Emma?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: ¿Qué decidió hacer Emma? (6)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"¿Qué decidió hacer Emma?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: ¿Cuál es el poder de la flor \"Luz de Luna\"? (7)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"¿Cuál es el poder de la flor \\\"Luz de Luna\\\"?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: ¿Cuál es el poder de la flor \"Luz de Luna\"? (8)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"¿Cuál es el poder de la flor \\\"Luz de Luna\\\"?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: ¿Quién es \"Sombra Silenciosa\"? (9)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"¿Quién es \\\"Sombra Silenciosa\\\"?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: ¿Quién es \"Sombra Silenciosa\"? (10)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"¿Quién es \\\"Sombra Silenciosa\\\"?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: Who is Zara? (11)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Who is Zara?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: Who is Zara? (12)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Who is Zara?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: What did Emma decide to do? (13)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"What did Emma decide to do?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: What did Emma decide to do? (14)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"What did Emma decide to do?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: What is the name of the magical flower? (15)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"What is the name of the magical flower?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: What is the name of the magical flower? (16)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"What is the name of the magical flower?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: What power does the “Moonlight” flower have? (17)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"What power does the “Moonlight” flower have?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: What power does the “Moonlight” flower have? (18)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"What power does the “Moonlight” flower have?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: Who is the Silent Shadow? (19)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Who is the Silent Shadow?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: Who is the Silent Shadow? (20)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Who is the Silent Shadow?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: Quem é Zara? (21)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Quem é Zara?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: Quem é Zara? (22)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Quem é Zara?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: Qual é o nome da flor mágica? (23)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Qual é o nome da flor mágica?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: Qual é o nome da flor mágica? (24)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Qual é o nome da flor mágica?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: O que Emma decidiu fazer? (25)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"O que Emma decidiu fazer?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: O que Emma decidiu fazer? (26)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"O que Emma decidiu fazer?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: Quem é a Sombra Silenciosa? (27)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Quem é a Sombra Silenciosa?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: Quem é a Sombra Silenciosa? (28)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Quem é a Sombra Silenciosa?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: Qual é o poder da flor \"Luz da Lua\"? (29)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Qual é o poder da flor \\\"Luz da Lua\\\"?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ask: Qual é o poder da flor \"Luz da Lua\"? (30)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Qual é o poder da flor \\\"Luz da Lua\\\"?\",\n  \"user_name\": \"Tester\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "ask"
+          ]
+        }
+      }
+    }
+  ]
+}
