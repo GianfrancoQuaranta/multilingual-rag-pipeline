@@ -2,16 +2,6 @@
 
 ## 🌍 Overview (English)
 
-### 🎯 Project Objectives
-
-- Build a local API using FastAPI or Flask that accepts user questions and returns consistent LLM responses.
-- Automatically detect language (ES, EN, PT), translate if necessary, and generate multilingual responses.
-- Store and retrieve chunks from a vector database (ChromaDB).
-- Build prompts that are deterministic, emoji-rich, one-sentence, and in third person.
-- Follow SOLID principles and best practices.
-- Include validation rules and cache system.
-- Pass all tests using Pytest.
-
 This project is a fully modular, production-grade **RAG (Retrieval-Augmented Generation)** system, designed with multilingual capabilities in **Spanish**, **English**, and **Portuguese**. It leverages powerful APIs like **Cohere** and **DeepL** and is implemented following **SOLID principles** and best practices for clean, maintainable, and testable code.
 
 ### 🚀 Features
@@ -75,8 +65,6 @@ All components are modular, extensible, and easily testable.
 
 3. **Start the server**:
 
-    From the root of the project, run:
-
     ```bash
     uvicorn app.app:app --reload
     ```
@@ -87,18 +75,41 @@ All components are modular, extensible, and easily testable.
     pytest -s tests/test_rag_responses.py
     ```
 
-### 🔄 API Testing with Postman
+### 🐳 Running with Docker (optional)
 
-A Postman Collection file is included:
+You can also run the entire project using **Docker Compose**, including both the FastAPI service and ChromaDB vector store.
 
-- `rag_questions_postman_collection.json`
+#### 🔧 Instructions:
 
-To use it:
+1. Make sure you have your `.env` file with valid API keys:
 
-1. Open Postman.
-2. Click **Import** and upload the file.
-3. Use the **Runner** to test all questions in sequence.
-4. You’ll get real-time feedback from your local API.
+    ```bash
+    cp .env.example .env
+    ```
+
+2. Then simply run:
+
+    ```bash
+    docker-compose up --build
+    ```
+
+3. Visit your API at:
+
+    ```
+    http://localhost:8000/
+    ```
+
+4. To stop:
+
+    ```bash
+    docker-compose down
+    ```
+
+#### 📦 Services launched:
+
+- `rag-api`: multilingual FastAPI RAG API
+- `chroma`: vector database with persistent volume
+
 
 ### 🧠 Core Components
 
@@ -111,16 +122,6 @@ To use it:
 ---
 
 ## 🌍 Descripción General (Español)
-
-### 🎯 Objetivos del Proyecto
-
-- Desarrollar una API local con FastAPI o Flask para responder preguntas de usuario.
-- Detectar el idioma automáticamente (ES, EN, PT) y traducir si es necesario.
-- Usar ChromaDB para almacenar y recuperar chunks vectorizados.
-- Generar prompts que sean deterministas, con emojis, en tercera persona y de una sola oración.
-- Seguir principios SOLID y buenas prácticas.
-- Incluir validaciones y sistema de cacheo.
-- Pasar todos los tests usando Pytest.
 
 Este proyecto es un sistema **RAG (Generación Aumentada por Recuperación)** completamente modular y preparado para producción, con soporte multilingüe en **español**, **inglés** y **portugués**. Está diseñado con principios **SOLID** y buenas prácticas de programación y documentación.
 
@@ -185,8 +186,6 @@ Cada componente es extensible, aislado y fácilmente testeable.
 
 3. **Iniciar el servidor**:
 
-    Desde la raíz del proyecto:
-
     ```bash
     uvicorn app.app:app --reload
     ```
@@ -197,18 +196,41 @@ Cada componente es extensible, aislado y fácilmente testeable.
     pytest -s tests/test_rag_responses.py
     ```
 
-### 🔄 Pruebas de API con Postman
+### 🐳 Ejecutar con Docker (opcional)
 
-Se adjunta el archivo:
+También podés correr todo el proyecto con **Docker Compose**, incluyendo tanto el servicio FastAPI como ChromaDB como base vectorial.
 
-- `rag_questions_postman_collection.json`
+#### 🔧 Instrucciones:
 
-Pasos para utilizarlo:
+1. Asegurate de tener tu archivo `.env` con las claves API:
 
-1. Abrí Postman.
-2. Hacé clic en **Importar** y subí el archivo `.json`.
-3. Usá el **Runner** para ejecutar todas las preguntas en secuencia.
-4. Vas a obtener las respuestas en tiempo real desde la API local.
+    ```bash
+    cp .env.example .env
+    ```
+
+2. Luego ejecutá:
+
+    ```bash
+    docker-compose up --build
+    ```
+
+3. Accedé a la API en:
+
+    ```
+    http://localhost:8000/
+    ```
+
+4. Para detener los servicios:
+
+    ```bash
+    docker-compose down
+    ```
+
+#### 📦 Servicios que se levantan:
+
+- `rag-api`: tu API RAG multilingüe con FastAPI
+- `chroma`: base vectorial con volumen persistente
+
 
 ### 🧠 Componentes clave
 
