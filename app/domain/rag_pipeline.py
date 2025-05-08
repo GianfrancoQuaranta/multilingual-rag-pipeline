@@ -1,7 +1,7 @@
 # === Imports ===
 from app.infrastructure.file_loader import load_text_file
 from app.infrastructure.chunker import chunk_text
-from app.infrastructure.translator import DeepLTranslator  # ⬅️ CAMBIO
+from app.infrastructure.translator import DeepLTranslator 
 from app.infrastructure.cache.json_cache import JsonCache
 
 from app.adapters.embedding_provider import CohereEmbedder
