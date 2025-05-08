@@ -3,6 +3,7 @@ pi_env/
 venv/
 .env
 .env.*
+!.env.example       
 
 # Editor configuration files
 .vscode/
@@ -19,7 +20,7 @@ __pycache__/
 *.out
 *.DS_Store
 
-# # Local database files (uncomment if needed)
+# # Local database files (uncomment if needed)  
 # data/chromadb/
 
 # Temporary files
