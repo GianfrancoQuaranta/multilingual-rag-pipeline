@@ -129,7 +129,7 @@ async def run_rag_pipeline(question: str, user_name: str) -> str:
     valid = validator.validate(response)
     invalid_responses = []
 
-    while not valid and attempts < MAX_RETRIES:
+    while not valid and attempts <= MAX_RETRIES:
         print(f"⚠️ Attempt {attempts+1}: invalid response. Retrying...")
         invalid_responses.append(response)
 
@@ -155,7 +155,6 @@ async def run_rag_pipeline(question: str, user_name: str) -> str:
         return f"⚠️ No valid response generated for question: '{question}'"
 
     # 12. Cache final response
-    
     cache.store_response(question_id, response['text'])
 
     # 13. Return final response

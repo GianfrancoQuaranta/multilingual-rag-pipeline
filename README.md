@@ -1,5 +1,9 @@
 # 🔍 Multilingual RAG Pipeline — SOLID, Cached, and Production-Ready
 
+## 📐 Diagram
+
+![Diagram](./diagram/diagram.png)
+
 ## 🌍 Overview (English)
 
 This project is a fully modular, production-grade **RAG (Retrieval-Augmented Generation)** system, designed with multilingual capabilities in **Spanish**, **English**, and **Portuguese**. It leverages powerful APIs like **Cohere** and **DeepL** and is implemented following **SOLID principles** and best practices for clean, maintainable, and testable code.
