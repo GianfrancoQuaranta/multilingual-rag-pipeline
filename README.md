@@ -1,4 +1,4 @@
-# 🔍 Multilingual RAG Pipeline — SOLID, Cached, and Production-Ready
+# 🔍 POC Multilingual RAG Pipeline — SOLID, Cached, and Production-Ready
 
 ## 📐 Diagram
 
